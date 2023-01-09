@@ -19,7 +19,7 @@ An interactive BOM and parts placement diagram is also available.
 
 # Assembley
 
-Even though is is SMD, assembley is pretty easy, but you do need to follow an certain order since some components overlap each other.   Start by doing all the SMD components (resistors, caps, IC, transistor, and SD card socket) on the underside of the board. I used solder paste and hot air, but you could also hand solder these. Pay attention to the orientaion of the two polarized caps if you elect to install them.
+Even though this is mostly SMD, assembley is pretty easy since everything is 0805 sized or bigger, but you do need to follow a certain order since some components overlap each other or become difficult to reach. Start by doing all the SMD components (resistors, caps, IC, transistor, and SD card socket) on the underside of the board. I used solder paste and hot air, but you could also hand solder these. Pay attention to the orientaion of the two polarized caps if you elect to install them.
 
 <img src="docs/board_bottom.jpg" alt="board_bottom" />
 
@@ -39,7 +39,7 @@ After everything is soldered I then inserted four of the 3.6mm header block spac
 
 # Programming
 
-This version does require updates to Sean's original ADE code base to support the OLED screen and remap a number of the pins to support this PCB layout.   I have a fork of his repo [here](https://github.com/djtersteegc/AdamNet-Drive-Emulator), and there is a precompiled ADE-Pro-Mini-OLED_v0.92.hex binary if you just want to upload via something like AVRDude.
+This version does require updates to Sean's original ADE code base to support the OLED screen and remaps a number of pins to support this PCB layout.   I have a fork of his repo [here](https://github.com/djtersteegc/AdamNet-Drive-Emulator), and there is a precompiled ADE-Pro-Mini-OLED_v0.92.hex binary if you just want to upload via something like AVRDude.
 
 If you decided to build it yourself, make sure 
 
